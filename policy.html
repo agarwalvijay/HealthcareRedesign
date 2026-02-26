@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .prose { font-family: 'Merriweather', serif; max-width: 65ch; }
+        .prose { font-family: 'Merriweather', serif; }
         h1, h2, h3, h4, h5 { font-family: 'Inter', sans-serif; }
         .citation { color: #2563eb; font-weight: bold; font-size: 0.75em; vertical-align: super; text-decoration: none; }
         @media print {
@@ -26,10 +26,17 @@
 
     <nav class="p-6 bg-white shadow-sm sticky top-0 z-50 print:hidden">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <div class="text-2xl font-extrabold tracking-tight text-blue-600 uppercase">Healthcare<span class="text-slate-800">Redesign</span>.org</div>
+            <a href="index.html" class="flex items-center group no-underline">
+                <img src="favicon.png" alt="Healthcare Redesign Logo" class="h-8 w-8 mr-3">
+                <div class="text-2xl font-extrabold tracking-tight text-blue-600 uppercase group-hover:text-blue-700 transition">
+                    Healthcare <span class="text-slate-800 group-hover:text-slate-900">Redesign</span>
+                </div>
+            </a>
             <div class="hidden md:flex space-x-8 font-medium">
                 <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <a href="policy-summary.html" class="hover:text-blue-600 transition">Summary</a>
                 <a href="about.html" class="hover:text-blue-600 transition">About</a>
+                <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
             </div>
             <button onclick="window.print()" class="bg-slate-100 hover:bg-slate-200 text-slate-900 px-4 py-2 rounded-lg transition font-medium border border-gray-200">Print / Save as PDF</button>
         </div>
@@ -41,13 +48,13 @@
             <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">Restoring the Buyer</h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto font-light print:text-gray-600">A Comprehensive Policy Framework for Consumer-Anchored Healthcare Reform</p>
             <div class="mt-8 text-sm text-gray-500 border-t border-gray-700 pt-6 inline-block px-12 print:border-gray-200">
-                <p>January 2026 • HealthcareRedesign.org</p>
+                <p>January 2026 • Healthcare Redesign</p>
             </div>
         </div>
     </header>
 
     <main class="flex-grow px-6 py-16 print:py-8 print:px-0">
-        <article class="max-w-4xl mx-auto bg-white p-10 md:p-16 rounded-2xl shadow-sm border border-gray-100 prose text-gray-800 leading-loose print:shadow-none print:border-none print:p-0">
+        <article class="max-w-5xl mx-auto bg-white p-10 md:p-16 rounded-2xl shadow-sm border border-gray-100 prose text-gray-800 leading-loose print:shadow-none print:border-none print:p-0">
 
             <div class="mb-16 p-8 bg-blue-50 rounded-xl border-l-4 border-blue-600 text-slate-800 print:bg-transparent print:border-l-0 print:p-0 break-inside-avoid">
                 <h3 class="text-xl font-bold text-blue-900 mb-6 uppercase tracking-wide">Executive Summary</h3>
@@ -481,7 +488,7 @@
     </main>
 
     <footer class="py-12 bg-slate-900 text-gray-500 text-center text-sm border-t border-slate-800 print:hidden">
-        <p>&copy; 2026 HealthcareRedesign.org | Advocating for Consumer-Anchored Healthcare</p>
+        <p>&copy; 2026 Healthcare Redesign | Advocating for Consumer-Anchored Healthcare</p>
     </footer>
 
 </body>

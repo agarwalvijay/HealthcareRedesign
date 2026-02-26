@@ -4,16 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthcare Redesign | Breaking the Subsidy Cycle</title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ES3BYB5QYC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-ES3BYB5QYC');
-    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
@@ -23,133 +16,172 @@
 
     <nav class="p-6 bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
+            
             <a href="index.html" class="flex items-center group no-underline">
-                <img src="favicon.svg" alt="Logo" class="h-8 w-8 mr-3">
+                <img src="favicon.png" alt="Healthcare Redesign Logo" class="h-8 w-8 mr-3">
                 <div class="text-2xl font-extrabold tracking-tight text-blue-600 uppercase group-hover:text-blue-700 transition">
-                    Healthcare<span class="text-slate-800 group-hover:text-slate-900">Redesign</span>.org
+                    Healthcare <span class="text-slate-800 group-hover:text-slate-900">Redesign</span>
                 </div>
             </a>
             <div class="hidden md:flex space-x-8 font-medium">
-                <a href="about.html" class="hover:text-blue-600 transition">About</a>
-                <a href="policy.html" class="hover:text-blue-600 transition">Policy Paper</a>
+                <a href="#problem" class="hover:text-blue-600 transition">Case Study</a>
+                <a href="#vision" class="hover:text-blue-600 transition">The Vision</a>
+                <a href="#proposal" class="hover:text-blue-600 transition">The Pillars</a>
+                <a href="about.html" class="hover:text-blue-600 transition text-slate-900">About</a>
                 <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
             </div>
+            <a href="policy.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">Policy Paper</a>
         </div>
     </nav>
-
     <header class="hero-gradient text-white py-24 px-6 text-center">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Subsidies aren't the cure.<br><span class="text-blue-400">They're the catalyst.</span></h1>
-            <p class="text-xl text-gray-300 mb-10 leading-relaxed">We don't have a healthcare funding crisis. We have a price discovery crisis.</p>
+            <p class="text-xl text-gray-300 mb-10 leading-relaxed">We don't have a healthcare funding crisis. We have a price discovery crisis. It’s time to move the power from insurance boardrooms to the hands of the patient.</p>
             <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="policy.html" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition shadow-lg">Read the Policy</a>
-                <a href="#why" class="bg-transparent border-2 border-gray-500 hover:border-white px-8 py-4 rounded-xl font-bold text-lg transition">See the Paradox</a>
+                <a href="#vision" class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition shadow-lg">Explore the Solution</a>
+                <a href="#problem" class="bg-transparent border-2 border-gray-500 hover:border-white px-8 py-4 rounded-xl font-bold text-lg transition">See the $5,000 Ultrasound</a>
             </div>
         </div>
     </header>
 
-    <section id="why" class="py-24 bg-white px-6 border-y border-gray-100">
-    <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl md:text-5xl font-extrabold mb-12 text-slate-900 text-center tracking-tight">The Grocery Store Paradox</h2>
-
-        <div class="relative p-8 md:p-14 bg-slate-900 rounded-[2rem] shadow-2xl text-white overflow-hidden">
-            <div class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-blue-600 rounded-full blur-[100px] opacity-20"></div>
-
-            <div class="relative z-10">
-                <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 font-light italic">
-                    "Imagine a grocery store with no prices on the shelves. You walk in, take what you need, and pay exactly $1 at the exit."
+    <section id="why" class="py-20 bg-white px-6 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-10 text-slate-900 text-center">The Grocery Store Paradox</h2>
+        <div class="bg-blue-50 p-8 md:p-12 rounded-3xl border border-blue-100">
+            <p class="text-xl text-slate-800 leading-relaxed mb-6 font-medium">
+                Imagine a grocery store with no prices on the shelves. You walk in, take what you need, and pay exactly $1 at the exit.
+            </p>
+            <p class="text-lg text-slate-700 leading-relaxed mb-8">
+                You don't care if the steak costs the store $5 or $500—you aren't the one paying the bill. A third party pays the store whatever price the store decides to charge. In this world, the store stops competing on value, and you stop shopping for quality.
+            </p>
+            <div class="border-t border-blue-200 pt-8 mt-8">
+                <p class="text-2xl font-bold text-blue-600 mb-2 underline decoration-blue-300">This is NOT Fiction.... This is U.S. Healthcare.</p>
+                <p class="text-gray-600">
+                    By insulating the patient from the price, we have destroyed the market's ability to regulate itself. <strong>Redesign</strong> means putting the price back on the shelf and the money back in your pocket.
                 </p>
-
-                <p class="text-lg md:text-xl text-gray-400 leading-relaxed mb-10">
-                    You don’t care whether the steak costs $5 or $500 — you aren’t the one paying the bill. A third party pays the store later, at whatever price the store decides to charge. <span class="text-white font-semibold">Can such a world even exist?</span>
-                </p>
-
-                <div class="pt-10 border-t border-slate-800">
-                    <h3 class="text-3xl md:text-4xl font-black text-blue-400 mb-6 uppercase tracking-tighter">This is not fiction. This is U.S. Healthcare.</h3>
-
-                    <div class="space-y-6 text-gray-300 text-lg leading-relaxed">
-                        <p>
-                            By insulating patients from prices, we have removed the system’s natural cost discipline[cite: 347, 348]. The buyer has been separated from the transaction[cite: 348]. The result is a healthcare economy that cannot self-regulate[cite: 345, 590].
-                        </p>
-                        <p class="font-bold text-white text-xl">
-                            Redesign means putting the price back on the shelf — and the purchasing power back in the hands of patients[cite: 351, 355].
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </section>
 
-    <section id="why" class="py-24 bg-white px-6 border-y border-gray-100">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl md:text-5xl font-extrabold mb-12 text-slate-900 text-center tracking-tight">The Grocery Store Paradox</h2>
-            <div class="relative p-8 md:p-14 bg-slate-900 rounded-[2rem] shadow-2xl text-white overflow-hidden">
-                <div class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-blue-600 rounded-full blur-[100px] opacity-20"></div>
-                <div class="relative z-10">
-                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-8 font-light italic">"Imagine a grocery store with no prices on the shelves. You walk in, take what you need, and pay exactly $1 at the exit."</p>
-                    <p class="text-lg md:text-xl text-gray-400 leading-relaxed mb-10">You don’t care whether the steak costs $5 or $500 — you aren’t the one paying the bill. A third party pays the store later, at whatever price the store decides to charge.</p>
-                    <div class="pt-10 border-t border-slate-800">
-                        <h3 class="text-3xl md:text-4xl font-black text-blue-400 mb-6 uppercase tracking-tighter">This is U.S. Healthcare.</h3>
-                        <p class="text-gray-300 text-lg leading-relaxed">By insulating patients from prices, we have removed the system’s natural cost discipline. <span class="text-white font-bold">Redesign means putting the price back on the shelf.</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 px-6 bg-slate-50">
+    <section id="problem" class="py-20 px-6">
         <div class="max-w-5xl mx-auto">
-             <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
-                <div class="p-10 md:w-1/2 bg-slate-800 text-white">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <div class="p-10 md:w-1/2 bg-slate-900 text-white">
                     <h2 class="text-3xl font-bold mb-6 italic">A Tale of Two Echocardiograms</h2>
+                    <p class="text-gray-400 mb-8 leading-relaxed">A patient needs a 15-minute heart ultrasound. They have two choices:</p>
                     <div class="space-y-8">
                         <div class="border-l-4 border-red-500 pl-4">
                             <p class="text-sm uppercase tracking-widest text-red-500 font-bold mb-1">The Hospital Path</p>
                             <p class="text-3xl font-bold">$4,650.00</p>
-                            <p class="text-sm text-gray-400 mt-1">Charged to insurance. Hidden from patient.</p>
+                            <p class="text-sm text-gray-400 mt-1">Charged to insurance. Hidden from the patient.</p>
                         </div>
                         <div class="border-l-4 border-green-500 pl-4">
                             <p class="text-sm uppercase tracking-widest text-green-500 font-bold mb-1">The Independent Lab</p>
                             <p class="text-3xl font-bold">$350.00</p>
-                            <p class="text-sm text-gray-400 mt-1">Cash price. Paid directly by patient.</p>
+                            <p class="text-sm text-gray-400 mt-1">Cash price. Paid directly by the patient.</p>
                         </div>
                     </div>
                 </div>
-                <div class="p-10 md:w-1/2 flex flex-col justify-center">
-                    <h3 class="text-2xl font-bold mb-4 text-slate-800">The 1,300% Markup</h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">In the current system, the hospital knows you aren't paying the bill. This insulates you from the price, removing any incentive for the provider to compete.</p>
-                    <a href="policy.html" class="text-blue-600 font-bold hover:underline">Read the full analysis →</a>
+                <div class="p-10 md:w-1/2 flex flex-col justify-center bg-white">
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">Why the 1,300% markup?</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        In the current system, the hospital knows you aren't paying the bill—your insurance is. This <strong>insulates</strong> you from the price, removing any incentive for the provider to compete. 
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        When the government increases subsidies, hospitals simply increase prices. The taxpayer loses, and premiums skyrocket. <strong>This example isn’t an outlier.</strong> Across the country, common tests vary in price by multiples with no clinical justification — because price is rarely visible and patients are rarely purchasers.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-24 px-6 bg-white">
+    <section id="why" class="py-16 bg-white px-6 border-y border-gray-100">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-8 text-slate-900">Why the System Fails</h2>
+            <div class="text-lg text-gray-600 leading-relaxed space-y-6">
+                <p>
+                    In most markets, consumers make purchasing decisions based on <strong>price, quality, and value</strong>. But in U.S. healthcare, prices are hidden from patients, negotiated in secrecy, and ultimately absorbed by insurers or government payers.
+                </p>
+                <p>
+                    This disconnect means providers are <strong>insulated from real competitive pressure</strong>—and that fuels rising charges and rising premiums paid by citizens and taxpayers.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="py-20 bg-slate-100 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold mb-12 text-slate-900 text-center">The System Shift</h2>
+            <div class="bg-white p-4 md:p-8 rounded-3xl shadow-sm mb-12">
+                <img src="healthcare-graphic.png" alt="System Flow: Current vs Consumer-Anchored" class="w-full h-auto rounded-xl mx-auto max-w-4xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="proposal" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-900">The Three Pillars</h2>
+            <h2 class="text-4xl font-extrabold text-center mb-16 text-slate-900">The Three Pillars of Redesign</h2>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-xl border-t-4 border-blue-500 flex flex-col">
                     <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center font-bold text-xl mb-6">1</div>
-                    <h3 class="text-xl font-bold mb-4">Fund the Patient</h3>
-                    <p class="text-gray-600">Subsidies converted into direct HSA deposits. It's the patient's money.</p>
+                    <h3 class="text-xl font-bold mb-4 text-slate-900">Fund the Patient, Not the System</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Subsidies are converted into direct deposits to individual HSA accounts. This isn't "insurance money"—it's the patient's money. If they find value, they keep the savings.
+                    </p>
                 </div>
-                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-xl border-t-4 border-blue-500 flex flex-col">
                     <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center font-bold text-xl mb-6">2</div>
-                    <h3 class="text-xl font-bold mb-4">Catastrophic Defaults</h3>
-                    <p class="text-gray-600">Insurance returns to risk protection. The first $5k is managed by the consumer.</p>
+                    <h3 class="text-xl font-bold mb-4 text-slate-900">High-Deductible Defaults</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Insurance returns to its true purpose: protecting against catastrophe. By making HDHPs the standard, we re-introduce price sensitivity to the 90% of routine healthcare transactions.
+                    </p>
                 </div>
-                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-xl border-t-4 border-blue-500 flex flex-col">
                     <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center font-bold text-xl mb-6">3</div>
-                    <h3 class="text-xl font-bold mb-4">True Transparency</h3>
-                    <p class="text-gray-600">Providers must display upfront cash pricing to compete.</p>
+                    <h3 class="text-xl font-bold mb-4 text-slate-900">True Price Transparency</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        It should be illegal to hide prices. Providers must display upfront cash pricing for all services, enabling a competitive marketplace where quality and cost are visible.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 bg-slate-900 text-gray-500 text-center text-sm">
-        <p>&copy; 2026 HealthcareRedesign.org</p>
+    <section class="py-24 bg-slate-900 text-white px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-6 leading-tight">Why This Approach Matters</h2>
+                    <p class="text-gray-400 text-lg mb-8 leading-relaxed">
+                        Healthcare spending is the largest driver of family expense growth in the U.S., and employers can no longer absorb infinite premium inflation. By redesigning how financial incentives align with actual patient choice, we can:
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 p-5 bg-slate-800 rounded-xl border border-slate-700">
+                        <span class="text-green-400 text-2xl font-bold">✓</span>
+                        <p class="font-semibold text-gray-200">Restore real competition among providers</p>
+                    </div>
+                    <div class="flex items-center gap-4 p-5 bg-slate-800 rounded-xl border border-slate-700">
+                        <span class="text-green-400 text-2xl font-bold">✓</span>
+                        <p class="font-semibold text-gray-200">Enable routine cost comparison</p>
+                    </div>
+                    <div class="flex items-center gap-4 p-5 bg-slate-800 rounded-xl border border-slate-700">
+                        <span class="text-green-400 text-2xl font-bold">✓</span>
+                        <p class="font-semibold text-gray-200">Reduce unnecessary spending</p>
+                    </div>
+                    <div class="flex items-center gap-4 p-5 bg-slate-800 rounded-xl border border-slate-700">
+                        <span class="text-green-400 text-2xl font-bold">✓</span>
+                        <p class="font-semibold text-gray-200">Make insurance affordable again</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-slate-900 text-gray-500 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 Healthcare Redesign | Advocating for Consumer-Anchored Healthcare</p>
     </footer>
+
 </body>
 </html>
